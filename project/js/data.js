@@ -1,0 +1,111 @@
+// Data for the website
+const servicesData = [
+  {
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"></path><path d="m22 12-8.58 3.91a2 2 0 0 1-1.66 0L3.2 12"></path><path d="m22 17-8.58 3.91a2 2 0 0 1-1.66 0L3.2 17"></path></svg>',
+    title: 'Web Design',
+    description: 'Eye-catching, modern designs that reflect your brand and engage your visitors.'
+  },
+  {
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>',
+    title: 'Responsive Development',
+    description: 'Websites that work flawlessly on all devices, from desktops to smartphones.'
+  },
+  {
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></svg>',
+    title: 'Performance Optimization',
+    description: 'Lightning-fast loading times and smooth performance for the best user experience.'
+  },
+  {
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>',
+    title: 'SEO',
+    description: 'Search engine optimization to help customers find your business online.'
+  },
+  {
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-tool"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>',
+    title: 'Content Creation',
+    description: 'Compelling copy and visual content that tells your story and converts visitors.'
+  },
+  {
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>',
+    title: 'Maintenance',
+    description: 'Ongoing support, updates, and improvements to keep your site secure and current.'
+  }
+];
+
+const portfolioData = [
+  {
+    id: 1,
+    title: 'Local Café Rebrand',
+    category: 'Restaurant',
+    image: 'https://images.pexels.com/photos/6173860/pexels-photo-6173860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A complete website redesign for a local coffee shop, focusing on online ordering and reservation systems.'
+  },
+  {
+    id: 2,
+    title: 'Fitness Studio Platform',
+    category: 'Health & Wellness',
+    image: 'https://images.pexels.com/photos/4325484/pexels-photo-4325484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A membership portal and class booking system for a boutique fitness studio.'
+  },
+  {
+    id: 3,
+    title: 'Law Firm Website',
+    category: 'Professional Services',
+    image: 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A professional website for a small law practice with appointment scheduling and resource library.'
+  },
+  {
+    id: 4,
+    title: 'Boutique E-commerce',
+    category: 'Retail',
+    image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A custom e-commerce solution for a local clothing boutique with inventory management.'
+  },
+  {
+    id: 5,
+    title: 'Dental Practice Site',
+    category: 'Healthcare',
+    image: 'https://images.pexels.com/photos/5214949/pexels-photo-5214949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A patient-focused website for a family dental practice featuring online forms and educational content.'
+  },
+  {
+    id: 6,
+    title: 'Real Estate Listings',
+    category: 'Real Estate',
+    image: 'https://images.pexels.com/photos/7031607/pexels-photo-7031607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A property listing platform for a local real estate agency with virtual tours and lead generation.'
+  }
+];
+
+const aboutFeatures = [
+  'Customized solutions',
+  'Fast turnaround times',
+  'SEO-friendly code',
+  'Mobile-first approach',
+  'Ongoing support',
+  'Affordable pricing'
+];
+
+const testimonialData = [
+  {
+    id: 1,
+    name: 'Sarah Johnson',
+    business: 'The Green Café',
+    quote: 'Working with WebCraft was the best decision for our café rebrand. The new website perfectly captures our vibe and has significantly increased our online orders!',
+    image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: 2,
+    name: 'Michael Rodriguez',
+    business: 'Rodriguez Law Firm',
+    quote: 'As an attorney, I needed a website that conveys professionalism and trustworthiness. The site delivered on all fronts and has helped us attract new clients.',
+    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  },
+  {
+    id: 3,
+    name: 'Emily Chen',
+    business: 'Tranquil Spa & Wellness',
+    quote: 'Our booking system has never been so efficient! The website is beautiful and our clients constantly compliment how easy it is to use.',
+    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+  }
+];

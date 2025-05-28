@@ -35,10 +35,10 @@ const servicesData = [
 const portfolioData = [
   {
     id: 1,
-    title: 'Local Café Rebrand',
-    category: 'Restaurant',
-    image: 'https://images.pexels.com/photos/6173860/pexels-photo-6173860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'A complete website redesign for a local coffee shop, focusing on online ordering and reservation systems.'
+    title: "Crystal Vision Tutoring",
+    category: "Web Development",
+    image: "pics/studying.png",
+    link: "https://crystalvisiontutoring.netlify.app/"
   },
   {
     id: 2,
@@ -56,20 +56,6 @@ const portfolioData = [
   },
   {
     id: 4,
-    title: 'Boutique E-commerce',
-    category: 'Retail',
-    image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'A custom e-commerce solution for a local clothing boutique with inventory management.'
-  },
-  {
-    id: 5,
-    title: 'Dental Practice Site',
-    category: 'Healthcare',
-    image: 'https://images.pexels.com/photos/5214949/pexels-photo-5214949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'A patient-focused website for a family dental practice featuring online forms and educational content.'
-  },
-  {
-    id: 6,
     title: 'Real Estate Listings',
     category: 'Real Estate',
     image: 'https://images.pexels.com/photos/7031607/pexels-photo-7031607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',

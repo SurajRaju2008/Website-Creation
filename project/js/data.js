@@ -42,24 +42,10 @@ const portfolioData = [
   },
   {
     id: 2,
-    title: 'Fitness Studio Platform',
-    category: 'Health & Wellness',
-    image: 'https://images.pexels.com/photos/4325484/pexels-photo-4325484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'A membership portal and class booking system for a boutique fitness studio.'
-  },
-  {
-    id: 3,
-    title: 'Law Firm Website',
-    category: 'Professional Services',
-    image: 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'A professional website for a small law practice with appointment scheduling and resource library.'
-  },
-  {
-    id: 4,
-    title: 'Real Estate Listings',
+    title: 'Real Estate Agent Portfolio',
     category: 'Real Estate',
     image: 'https://images.pexels.com/photos/7031607/pexels-photo-7031607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'A property listing platform for a local real estate agency with virtual tours and lead generation.'
+    link: "https://eshuchikoti.netlify.app/"
   }
 ];
 
